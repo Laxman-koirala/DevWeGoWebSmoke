@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/laxmankoirala/Downloads/WebWeGo 2">
+        <classes>
+            <class name="com.qa.tests.CookiesPageTest">
+                <methods>
+                    <include name="acceptCookiesTest"/>
+                    <include name="blockCookiesTest"/>
+                    <include name="hereImprovementLinkTest"/>
+                    <include name="cookiesHeaderTest"/>
+                    <include name="cookiesMessageTest"/>
+                </methods>
+            </class>
+           <class name="com.qa.tests.MapViewAndGestureTest">
+            <methods>
+                <include name="zoomInTest"/>
+                <include name="ZoomOutTest"/>
+            </methods>
+           </class>
+            <class name="com.qa.tests.SearchTest">
+                <methods>
+                    <include name="searchItemTest"/>
+                    <include name="getLatestHistory"/>
+                </methods>
+            </class>
+            <class name="com.qa.tests.UrlTest">
+                <methods>
+                    <include name="CheckZLinURL"/>
+                </methods>
+            </class>
+        </classes>
+    </test>
+</suite>
